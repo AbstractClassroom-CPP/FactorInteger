@@ -51,8 +51,8 @@ In another CMake project:
 include(FetchContent)
 FetchContent_Declare(
   FactorInteger
-  GIT_REPOSITORY <your repo url>
-  GIT_TAG <tag-or-commit>
+  GIT_REPOSITORY https://github.com/AbstractClassroom-CPP/FactorInteger
+  GIT_TAG v1.0.0
 )
 FetchContent_MakeAvailable(FactorInteger)
 
